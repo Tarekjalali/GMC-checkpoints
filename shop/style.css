@@ -1,0 +1,158 @@
+* {
+    color: beige 
+  }
+
+
+body {
+    background-image: url(chernyy-fon-razmytost-polosy.jpg);
+    background-repeat: no-repeat; 
+    background-size: 150%;
+    background-repeat: repeat-y;
+    
+}
+
+#logo{
+    height: 75px;
+    width: 89px;
+}
+
+header{
+
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+img:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3 ease;
+    z-index: 1001; 
+}
+
+.d-flex{
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+.d-flex a{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+.title_logo{
+    display: flex;
+    align-items: center;}
+
+
+.card{
+    margin: 40px;
+    color: black;
+
+}
+.card-body{
+    background-color: beige;
+}
+
+
+
+.card p {
+
+    color: black;
+}
+
+
+.games{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+iframe{
+    margin: 20px;
+    margin-top: 100px;
+}
+.trailers{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.stick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar{
+height: 45px;
+border-radius: 50px;
+
+}
+.frm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.question{ display: flex;
+align-items: center;
+}
+
+.card-img-top{
+    width: 318px;
+    height: 447px;
+}
+
+.card-text{
+    height: 164px;
+}
+
+.input-group-prepend{
+    color: black !important;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+
+   
+}
+#wearch{
+    border-radius: 10px;
+}
+
+.somedia{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 530px; margin-top: 20px;
+
+}
+form input{
+
+    color: black;
+
+}
+
+.compteur{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
