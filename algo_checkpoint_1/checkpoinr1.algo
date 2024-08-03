@@ -1,0 +1,23 @@
+ALGORITHM CalculLWVString
+VAR
+    stal: CHAR;
+    countLength, countVowles : INTEGER := 0 ;
+    countWords : INTEGER := 1 ;
+BEGIN
+
+    REPEAT
+        Write("Donnez un char")
+        Read(stal)
+        countLength = countLength + 1;
+    IF (stal) THEN
+        countWords := countWords + 1;
+    END IF
+    IF (stal = 'a' OR stal = 'e' OR stal = '0' OR stal ='u' OR stal = 'y' OR stal = 'i' OR stal = 'A' OR stal = 'E' OR stal = 'O' OR stal ='U' OR stal = 'Y' OR stal = 'I')
+    countVowles := countVowles + 1;
+    END IF
+    UNTIL (stal ='.')
+        Write("Le nombre de char", countLength)
+        Write("Le nombre de mots ", countWords)
+        Write("Le nombre de Voyelles", countVowles)
+
+END
