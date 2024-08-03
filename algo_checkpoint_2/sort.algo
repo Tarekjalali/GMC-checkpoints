@@ -1,0 +1,20 @@
+ALGORITHM InsertionSort
+VAR
+    arr : ARRAY_OF INTEGER;
+    i, j: INTEGER
+    current: INTEGER
+BEGIN
+    FOR i FROM 1 TO LENGTH(arr) - 1 DO
+        current = arr[i]
+        j = i - 1
+        
+        WHILE j ≥ 0 AND arr[j] > current DO
+            arr[j + 1] = arr[j]
+            j = j - 1
+        END WHILE
+        
+        arr[j + 1] = current
+    END FOR
+    
+  
+END
