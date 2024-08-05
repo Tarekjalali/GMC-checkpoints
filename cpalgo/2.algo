@@ -1,0 +1,16 @@
+ALGORITHM CommunSimple
+VAR
+    T : ARRAY_OF INTEGER[] := [5,10,2,3];
+    V : ARRAY_OF INTEGER[] := [10,1,4,3,5];
+    sum : INTEGER := 0;
+BEGIN
+    FOR i FROM 1 TO T.length STEP 1  DO       
+        
+        FOR j FROM 1 TO V.length STEP 1  DO
+            IF (T[i] = V[j]) THEN
+                sum := sum + T[i] + V[j]
+            END_IF
+        END_FOR
+        
+    END_FOR
+END
